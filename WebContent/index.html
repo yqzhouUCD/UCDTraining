@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>UCD Practice</title>
+</head>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+    $.get('BasicServlet', function(data) {
+        $("#textPanel").text(data)
+    });
+</script>
+<body>
+<div id="textPanel">
+Please Enjoy UCD Practice!
+</div>
+</body>
+</html>
